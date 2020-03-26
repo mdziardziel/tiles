@@ -69,7 +69,8 @@ navigation2 {
 }
 
 middle {
-  background-color: darkcyan;
+  /* background-color: darkcyan; */
+    background-color: white;
   grid-auto-rows: minmax(390px, auto);
   display: grid;
 }
@@ -122,6 +123,7 @@ rodo {
       "e5_1 e5_2 e5_2 e5_3 e5_3 e5_4"
       "e6_1 e6_2 e6_2 e6_3 e6_3 e6_4"
       "e7_1 e7_2 e7_2 e7_3 e7_3 e7_4";
+    width: 1170px;
   }
 
 
@@ -142,6 +144,7 @@ rodo {
       "e6_1 e6_2 e6_2 e6_3 e6_3"
       "e7_2 e7_2 e7_3 e7_3 e7_4";
       justify-content: center;	
+      width: 975px;
   }
 
   #e1_1, #e2_4, #e3_1, #e4_3, #e5_1, #e6_4, #e7_1 {
@@ -172,7 +175,8 @@ rodo {
       "e5_2 e5_2 e5_3 e5_3"
       "e6_2 e6_2 e6_3 e6_3"
       "e7_2 e7_2 e7_3 e7_3";
-      justify-content: center;	
+    justify-content: center;	
+    width: 780px;
   }
 
   #e1_1, #e2_4, #e3_1, #e4_3, #e5_1, #e6_4, #e7_1, #e1_4, #e2_1, #e3_4, #e4_1, #e5_4, #e6_1, #e7_4 {
@@ -210,6 +214,7 @@ rodo {
       "e7_1 e7_2 e7_2" 
       "e7_3 e7_3 e7_4";
       justify-content: center;	
+      width: 585px;
   }
 
    #e4_1, #e4_3 {
@@ -248,6 +253,7 @@ rodo {
       "e7_2 e7_2" 
       "e7_3 e7_3";
       justify-content: center;
+      width: 390px;
   }
   #e1_1, #e2_4, #e3_1, #e4_3, #e5_1, #e6_4, #e7_1, #e1_4, #e2_1, #e3_4, #e4_1, #e5_4, #e6_1, #e7_4 {
     display: none;
