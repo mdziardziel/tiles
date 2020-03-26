@@ -38,7 +38,7 @@ $(window).on('load', function() {
     $("middle").removeAttr("style")
     });
   
-  $('.rowclick').hover( function() {
+  $('.rowclick').mouseover( function() {
     let id = $(this).attr('id')
     // let template = getGridTemplateArea()
     let templateRows =  getGridTemplateArea()
@@ -47,18 +47,22 @@ $(window).on('load', function() {
     // let selector = '#' + divIds.join(', #') // for all row
     let selector = '#' + id // for selected 
 
-    let size = $(selector).css('background-size') 
 
-    let new_size = null;
-    if(size == 'cover') {
-      new_size = '0px 0px'
-    } else {
-      new_size = 'cover'
-    }
-    $(selector).css('background-size', new_size)
+    let available_colors = ['rgba(228, 100, 10', 'rgba(228, 10, 100', 'rgba(8, 10, 10', 'rgba(228, 200, 100', 'rgba(22, 100, 100']
+    let color = available_colors[Math.floor(Math.random()*available_colors.length)]
+    let opacity = ((Math.floor(Math.random() * 5)/10) + 0.5 ).toString();
+    $(selector).css('box-shadow', 'inset 0 0 0 1000px ' + color +', ' + opacity + ')' )
 
     // $('#' + id).css('min-width', '500px')
   });
+
+  $('.rowclick').each( function() {
+    let available_colors = ['rgba(228, 100, 10', 'rgba(228, 10, 100', 'rgba(8, 10, 10', 'rgba(228, 200, 100', 'rgba(22, 100, 100']
+    let color = available_colors[Math.floor(Math.random()*available_colors.length)]
+    let opacity = ((Math.floor(Math.random() * 5)/10) + 0.5 ).toString();
+    console.log(color)
+    $(this).css('box-shadow', 'inset 0 0 0 1000px ' + color +', ' + opacity + ')' )
+  })
 
   $('.rowclick').click( function() {
     let id = $(this).attr('id')

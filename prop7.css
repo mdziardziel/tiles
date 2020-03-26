@@ -255,180 +255,219 @@ rodo {
 
 div {
   overflow: hidden;
+  color: white; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 20px; 
+  font-weight: bold; 
+  letter-spacing: -1px;
+   /* line-height: 300px;  */
+   text-align: center;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
 #e1_1 {
   grid-area: e1_1;
-  box-shadow: inset 0 0 0 1000px rgba(228, 10, 10, 0.5);
-  background-image: url('img/1_1.png');
+  background-image: url('imgn/1_1.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 #e1_2 {
   grid-area: e1_2;
-  background-image: url('img/1_2.png');
+  background-image: url('imgn/1_2.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e1_3 {
   grid-area: e1_3;
-  background-image: url('img/1_3.png');
+  background-image: url('imgn/1_3.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e1_4 {
   grid-area: e1_4;
-  background-image: url('img/1_4.png');
+  background-image: url('imgn/1_4.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 
 #e2_1 {
   grid-area: e2_1;
-  background-image: url('img/2_1.png');
+  background-image: url('imgn/2_1.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 #e2_2 {
   grid-area: e2_2;
-  background-image: url('img/2_2.png');
+  background-image: url('imgn/2_2.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e2_3 {
   grid-area: e2_3;
-  background-image: url('img/2_3.png');
+  background-image: url('imgn/2_3.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e2_4 {
   grid-area: e2_4;
-  background-image: url('img/2_4.png');
+  background-image: url('imgn/2_4.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 
 #e3_1 {
   grid-area: e3_1;
-  background-image: url('img/3_1.png');
+  background-image: url('imgn/3_1.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 #e3_2 {
   grid-area: e3_2;
-  background-image: url('img/3_2.png');
+  background-image: url('imgn/3_2.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e3_3 {
   grid-area: e3_3;
-  background-image: url('img/3_3.png');
+  background-image: url('imgn/3_3.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e3_4 {
   grid-area: e3_4;
-  background-image: url('img/3_4.png');
+  background-image: url('imgn/3_4.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 
 #e4_1 {
   grid-area: e4_1;
-  background-image: url('img/4_1.png');
+  background-image: url('imgn/4_1.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 #e4_2 {
   grid-area: e4_2;
-  background-image: url('img/4_2.png');
+  background-image: url('imgn/4_2.jpg');
   background-size: cover;
-  max-width: 780px;
+  max-width: 750px;
+  height: 360px;
 }
 #e4_3 {
   grid-area: e4_3;
-  background-image: url('img/4_3.png');
+  background-image: url('imgn/4_3.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 #e4_4 {
   grid-area: e4_4;
-  background-image: url('img/4_4.png');
+  background-image: url('imgn/4_4.jpg');
   background-size: cover;
+  height: 360px;
 }
 
 #e5_1 {
   grid-area: e5_1;
-  background-image: url('img/5_1.png');
+  background-image: url('imgn/5_1.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 #e5_2 {
   grid-area: e5_2;
-  background-image: url('img/5_2.png');
+  background-image: url('imgn/5_2.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e5_3 {
   grid-area: e5_3;
-  background-image: url('img/5_3.png');
+  background-image: url('imgn/5_3.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e5_4 {
   grid-area: e5_4;
-  background-image: url('img/5_4.png');
+  background-image: url('imgn/5_4.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 
 #e6_1 {
   grid-area: e6_1;
-  background-image: url('img/6_1.png');
+  background-image: url('imgn/6_1.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 #e6_2 {
   grid-area: e6_2;
-  background-image: url('img/6_2.png');
+  background-image: url('imgn/6_2.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e6_3 {
   grid-area: e6_3;
-  background-image: url('img/6_3.png');
+  background-image: url('imgn/6_3.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e6_4 {
   grid-area: e6_4;
-  background-image: url('img/6_4.png');
+  background-image: url('imgn/6_4.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 
 #e7_1 {
   grid-area: e7_1;
-  background-image: url('img/7_1.png');
+  background-image: url('imgn/7_1.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
 #e7_2 {
   grid-area: e7_2;
-  background-image: url('img/7_2.png');
+  background-image: url('imgn/7_2.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e7_3 {
   grid-area: e7_3;
-  background-image: url('img/7_3.png');
+  background-image: url('imgn/7_3.jpg');
   background-size: cover;
-  width: 390px;
+  width: 360px;
+  height: 360px;
 }
 #e7_4 {
   grid-area: e7_4;
-  background-image: url('img/7_4.png');
+  background-image: url('imgn/7_4.jpg');
   background-size: cover;
-  width: 195px;
+  width: 165px;
+  height: 360px;
 }
