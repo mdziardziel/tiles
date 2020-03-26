@@ -25,24 +25,47 @@ header {
   background-color: white;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
-  background-image: url('img/eh1.png');
-  background-size: cover;
+  /* background-image: url('img/eh1.png'); */
+  /* background-size: cover; */
+
+
+  overflow: hidden;
+  color: blue; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 30px; 
+  font-weight: bold; 
+  letter-spacing: -1px;
+   /* line-height: 300px;  */
+   text-align: center;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 navigation1 {
-  background-color: crimson;
+  /* background-color: crimson; */
   grid-column: 3 / 4;
   grid-row: 2 / 3;
-  background-image: url('img/eh3.png');
-  background-size: cover;
+  /* background-image: url('img/eh3.png'); */
+  /* background-size: cover; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 navigation2 {
-  background-color: khaki;
+  /* background-color: khaki; */
   grid-column: 3 / 4;
   grid-row: 1 / 2;
-  background-image: url('img/eh2.png');
-  background-size: cover;
+  /* background-image: url('img/eh2.png'); */
+  /* background-size: cover; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 middle {
@@ -52,7 +75,7 @@ middle {
 }
 
 footer {
-  background-color: blue;
+  background-color: #082567;
   display: grid;
   grid-template-columns: 1fr 1fr 4fr;
   min-height: 100px;
@@ -61,14 +84,30 @@ footer {
 
 logo {
   grid-column: 2 / 3;
-  background-image: url('img/fe1.png');
-  background-size: cover;
+  /* background-image: url('img/fe1.png'); */
+  /* background-size: cover; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 30px; 
+  font-weight: bold; 
+  letter-spacing: -1px;
 }
 
 rodo {
   grid-column: 3 / 4;
-  background-image: url('img/fe2.png');
-  background-size: cover;
+  /* background-image: url('img/fe2.png'); */
+  /* background-size: cover; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+  color: white;
 }
 
 
